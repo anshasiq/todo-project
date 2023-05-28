@@ -6,7 +6,7 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, legend,
- caption, tbody, tfoot, thead, tr, th, td,
+ caption, tbody, tfoot, thead, 
 article, aside, canvas, details, embed, 
 figure, figcaption, header, hgroup, 
 menu,  output, ruby, section, summary,
@@ -124,4 +124,17 @@ button{
     margin-bottom: 1cm;
     padding: 10px;
     font-size: large;
+}
+table{
+    margin-left: 30%;
+}
+
+.cvc{
+ font-size: larger;
+ margin-right: 1cm;
+ padding-right: 30px;
+
+}
+.xx{
+    height: 200px;
 }
