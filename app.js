@@ -17,4 +17,4 @@ for (let i=0;i<AllAns.length;++i){
     console.log(AllAns[i]);}
     else
     console.log(AllAns[i]);
-}
+}  
