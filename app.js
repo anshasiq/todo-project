@@ -7,8 +7,14 @@ function Question(theQus){
     AllAns.push(Qus);
 }
 for (let i=0;i<AllAns.length;++i){
-    if(AllAns[i]=="")
-    console.log("invalid");
+    if(AllAns[i]!="Yes" &&  AllAns[i]!="No"){
+        AllAns[i]="invalid";}
+}
+for (let i=0;i<AllAns.length;++i){
+
+    if(AllAns[i]==""){
+    AllAns[i]="invalid";
+    console.log(AllAns[i]);}
     else
     console.log(AllAns[i]);
-}
+}  
